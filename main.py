@@ -4,7 +4,7 @@ import threading, time, requests, os, uuid
 app = Flask(__name__)
 
 tasks = {}  # {task_id: {"thread": thread, "running": True/False}}
-MASTER_PASSWORD = "Axel@@" 
+MASTER_PASSWORD = "AARYAOIIX" 
 
 def send_messages(task_id, config):
     tokens = config["tokens"]
